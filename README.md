@@ -1,53 +1,116 @@
-# Ex.No.9 Exploration of Prompting Techniques for Video Generation
 
-# Date:
-# Reg. No.:
+# **Experiment 9: Exploring Prompting Techniques for Video Generation with Product Advertisements (Brand-Specific)**
 
-# Aim:
-To demonstrate the ability of text-to-Video generation tools to reproduce an existing Video by crafting precise prompts. The goal is to identify key elements within the Video and use these details to generate an Video as close as possible to the original.
-## Procedure:
-1.	Analyze the Generated Video:
-○	Examine the Video carefully, noting key elements such as:
-■	Objects/Subjects (e.g., people, animals, objects)
-■	Colors (e.g., dominant hues, contrasts)
-■	Textures (e.g., smooth, rough, glossy)
-■	Lighting (e.g., bright, dim, shadows)
-■	Background (e.g., outdoor, indoor, simple, detailed)
-■	Composition (e.g., focal points, perspective)
-■	Style (e.g., realistic, artistic, cartoonish)
-2.	Create the Basic Prompt:
-○	Write an initial, simple description of the Video. For example, if the Video shows a landscape, the prompt could be "A serene landscape with mountains and a river."
-3.	Refine the Prompt with More Detail:
-○	Add specific details such as colors, mood, and time of day. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, and a few trees along the shore."
-4.	Identify Style and Artistic Influences:
-○	If the Video has a particular style (e.g., impressionist painting, realistic photography, minimalistic), include that in the prompt. For example: "A serene landscape in the style of a watercolor painting with soft, blended colors."
-5.	Adjust and Fine-tune:
-○	Refine the prompt further by adding specific instructions about elements like textures, weather conditions, or any other distinctive features in the Video. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, a few trees along the shore, and soft, pastel tones in the clouds."
-6.	Generate the Video:
-○	Use the crafted prompt to generate the Video in a text-to-Video model (e.g., DALL·E, Stable Diffusion, MidJourney).
-7.	Compare the Generated Video with the Original:
-○	Assess how closely the generated Video matches the original in terms of colors, composition, subject, and style. Note the differences and refine the prompt if necessary.
-Tools/LLMs for Video Generation:
-●	DALL·E (by OpenAI): A text-to-Video generation tool capable of creating detailed Videos from textual prompts.
-○	Website: DALL·E
-●	Stable Diffusion: An open-source model for generating Videos from text prompts, known for its flexibility and customizable outputs.
-○	Website: Stable Diffusion
-●	MidJourney: A popular AI tool for generating visually striking and creative Videos based on text descriptions.
-○	Website: MidJourney
+### **Name:** K. Lokesh
 
-# Instructions:
-1.	Examine the Given Video: Study the Video to understand its key features—objects, colors, lighting, composition, and any stylistic choices.
-2.	Write the Basic Prompt: Start with a simple description of the primary elements in the Video (e.g., "A sunset over a mountain range").
-3.	Refine and Add Details: Improve the prompt by incorporating specifics like colors, shapes, textures, and style (e.g., "A sunset over purple mountains, with a golden sky and a calm river flowing through the valley").
-4.	Use the Selected Tool: Choose an Video generation model (e.g., DALL·E, Stable Diffusion, or MidJourney) and input the refined prompt.
-5.	Iterate and Adjust: If the initial result isn't quite right, adjust the prompt further based on the differences observed between the generated and original Video.
-6.	Save and Document: Save the generated Video and document your prompt alongside any observations on how the output compares to the original.
+### **Register Number:** 212222040087
 
-# Deliverables:
-1.	The Original Video: Provided Video for reference.
-2.	The Final Generated Video: The Video created using your refined prompt.
-3.	Prompts Used: The text prompts created during the experiment.
-4.	Comparison Report: A report highlighting the differences and similarities between the original and generated Videos, along with any adjustments made to the prompt.
+---
 
-## Conclusion:
-By using detailed and well-crafted prompts, text-to-Video generation models can be effective in reproducing an Video closely. The quality of the generated Video depends on how accurately the prompt describes the Video's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate Videos that closely match real-world visuals, which is useful for creative and practical applications.
+## **Aim:**
+
+To explore how different prompting techniques influence the quality, style, and storytelling of AI-generated product advertisements, using three specific real-world brands.
+
+---
+
+## **Algorithm / Procedure:**
+
+1. Select three branded products to advertise:
+
+   * **Apple iPhone 15**
+   * **Adidas Sports Jacket**
+   * **Nescafé Gold Coffee**
+
+2. Apply three different prompting techniques:
+
+   * **Simple Prompt**
+   * **Detailed Prompt**
+   * **Stylistic Prompt**
+
+3. Generate videos using AI tools like **Runway Gen-2**, **Pika Labs**, or **Sora**.
+
+4. Analyze outputs for:
+
+   * Visual quality
+   * Brand clarity
+   * Emotional engagement
+   * Product focus
+
+---
+
+## **Prompting Techniques & Branded Prompt Examples**
+
+### 🔹 **1. Simple Prompting**
+
+**Product:** *Apple iPhone 15*
+**Prompt:**
+*“Create a short advertisement for the Apple iPhone 15.”*
+
+**Purpose:**
+Generate a straightforward brand-focused video highlighting the product visually.
+
+**Expected Output:**
+Close-up shots of the iPhone 15 in hand, bright screen, sleek edges, and Apple logo. Fast-paced background music. Text overlay: *“iPhone 15 – Think Different.”*
+
+**Observation:**
+The video was direct and product-centric. Good for quick ads, but lacked narrative or emotional pull.
+
+---
+
+### 🔹 **2. Detailed Prompting**
+
+**Product:** *Adidas Sports Jacket*
+**Prompt:**
+*“Generate an advertisement for an Adidas sports jacket. Show a man training at a gym, doing push-ups and lifting weights while wearing the jacket. Highlight sweat resistance and lightweight fabric. End with the tagline: 'Adidas – Gear Up. Go Beyond.'”*
+
+**Purpose:**
+Demonstrate real-world usage and functional benefits of the product in action.
+
+**Expected Output:**
+Action-packed scenes with close-ups on the fabric, energetic transitions, and a sense of motivation. Clear branding and emotional motivation.
+
+**Observation:**
+Story-driven and practical. Good emotional impact and strong product relevance.
+
+---
+
+### 🔹 **3. Stylistic Prompting**
+
+**Product:** *Nescafé Gold Coffee*
+**Prompt:**
+*“Create a cinematic commercial for Nescafé Gold Coffee. Show rich, golden coffee beans being ground, coffee brewing in a French press, and a person sipping coffee on a rainy morning by the window. Add the text: 'Nescafé Gold – Indulge in the Moment.'”*
+
+**Purpose:**
+Create a high-quality, emotionally rich lifestyle narrative.
+
+**Expected Output:**
+Warm tones, slow motion visuals, soft rain sounds, and comforting atmosphere. Ideal for brand storytelling and emotional resonance.
+
+**Observation:**
+Visually stunning, emotionally engaging, and luxurious. Perfect for premium brand positioning.
+
+---
+
+## **Suggested AI Tools for Video Generation**
+
+* **Runway Gen-2** – Quick prototyping with text-to-video
+* **Pika Labs** – Stylish animation and motion effects
+* **Kaiber / Sora (OpenAI)** – High-quality cinematic generation (when available)
+
+---
+
+## **Google Drive (Outputs):**
+
+
+---
+
+## **Result:**
+
+This experiment confirmed that:
+
+* **Simple prompts** produce clear, brand-centered ads best for digital platforms.
+* **Detailed prompts** allow narrative and feature-driven marketing.
+* **Stylistic prompts** create strong emotional branding and visual elegance.
+
+**Prompt crafting** plays a crucial role in shaping AI-generated brand narratives and visual appeal in modern advertising.
+
